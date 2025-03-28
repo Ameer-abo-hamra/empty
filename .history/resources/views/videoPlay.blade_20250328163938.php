@@ -102,7 +102,7 @@
             });
         } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
 
-            console.log("else if ") ;
+            console.log("else if ")
             video.src = "{{ asset('streamable_videos/' . $masterFile) }}";
         }
     </script>
