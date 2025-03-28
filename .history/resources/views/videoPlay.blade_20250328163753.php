@@ -59,7 +59,7 @@
     </div>
 
     <script>
-        console.log("hi");
+        console.log()
         var video = document.getElementById('videoPlayer');
         var qualitySelector = document.createElement("select");
         qualitySelector.id = "qualitySelector";
